@@ -1,0 +1,4 @@
+2025-06-10T13:14:01.807Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider aggregator *aggregator.ProviderAggregator
+2025-06-10T13:14:01.808Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *file.Provider
+2025-06-10T13:14:01.811Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *traefik.Provider
+2025-06-10T13:14:01.812Z [jfrou] [INFO ] [                ] [logger.go:58                  ] [main                ] [] - Starting provider *templates.UnhealthyNodeConfProvider

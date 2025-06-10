@@ -1,0 +1,244 @@
+2025-06-10T13:13:53.163Z [jfac ] [INFO ] [51fe201211ca9720] [licationContextInitializer:166] [main                ] - Access (jfac) service initialization started. Version: 7.141.12 Revision: 84112900 PID: 8939 Home: /opt/jfrog/artifactory FIPS Mode: none
+2025-06-10T13:13:53.205Z [jfac ] [INFO ] [51fe201211ca9720] [j.a.m.ConfigMigrationRunner:77] [main                ] - EnvironmentConfig (version 12) is up to date, nothing to migrate
+2025-06-10T13:13:53.226Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.a.AccessApplication:53    ] [main                ] - Starting AccessApplication v7.141.12 using Java 21.0.7 with PID 8939 (/opt/jfrog/artifactory/app/access/tomcat/webapps/access/WEB-INF/lib/access-application-7.141.12.jar started by artifactory in /opt/jfrog/artifactory)
+2025-06-10T13:13:53.229Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.a.AccessApplication:658   ] [main                ] - The following 1 profile is active: "production"
+2025-06-10T13:13:55.471Z [jfac ] [INFO ] [51fe201211ca9720] [IdToBigIntAddBcryptPassword:50] [main                ] - Found 0 rows in the access users table, will be re-inserted after table migration.
+2025-06-10T13:13:55.536Z [jfac ] [INFO ] [51fe201211ca9720] [ractV3_7__LowercaseAllUsers:34] [main                ] - Found 0 rows in the access users table.
+2025-06-10T13:13:55.537Z [jfac ] [INFO ] [51fe201211ca9720] [ractV3_7__LowercaseAllUsers:46] [main                ] - 0 results will be updated
+2025-06-10T13:13:55.538Z [jfac ] [INFO ] [51fe201211ca9720] [ractV3_7__LowercaseAllUsers:50] [main                ] - Lowercase user migration finished successfully.
+2025-06-10T13:13:55.556Z [jfac ] [INFO ] [51fe201211ca9720] [V3_11__DedupPermissionNames:36] [main                ] - Found 0 rows in the access permissions table.
+2025-06-10T13:13:55.557Z [jfac ] [INFO ] [51fe201211ca9720] [V3_11__DedupPermissionNames:48] [main                ] - 0 results will be updated
+2025-06-10T13:13:55.557Z [jfac ] [INFO ] [51fe201211ca9720] [V3_11__DedupPermissionNames:52] [main                ] - Permission with counter migration finished successfully.
+2025-06-10T13:13:55.585Z [jfac ] [INFO ] [51fe201211ca9720] [_16__AddUserNameTypeToToken:45] [main                ] - Adding username column to access_tokens table
+2025-06-10T13:13:55.588Z [jfac ] [INFO ] [51fe201211ca9720] [_16__AddUserNameTypeToToken:73] [main                ] - Finished adding username column to access_tokens table
+2025-06-10T13:13:55.597Z [jfac ] [INFO ] [51fe201211ca9720] [_UpdatePermissionCustomData:88] [main                ] - found 0 rows in the access permissions table before migration
+2025-06-10T13:13:55.598Z [jfac ] [INFO ] [51fe201211ca9720] [UpdatePermissionCustomData:104] [main                ] - converting 0 access permissions
+2025-06-10T13:13:55.599Z [jfac ] [INFO ] [51fe201211ca9720] [UpdatePermissionCustomData:112] [main                ] - converting 0 xray permissions
+2025-06-10T13:13:55.600Z [jfac ] [INFO ] [51fe201211ca9720] [UpdatePermissionCustomData:120] [main                ] - converting 0 distribution permissions
+2025-06-10T13:13:55.601Z [jfac ] [INFO ] [51fe201211ca9720] [UpdatePermissionCustomData:132] [main                ] - converting 0 mission control permissions
+2025-06-10T13:13:55.601Z [jfac ] [INFO ] [51fe201211ca9720] [UpdatePermissionCustomData:139] [main                ] - 0 artifactory permissions unchanged
+2025-06-10T13:13:55.607Z [jfac ] [INFO ] [51fe201211ca9720] [stractV4_1__RenameDbJoinKey:41] [main                ] - Join key db rename migration started.
+2025-06-10T13:13:55.608Z [jfac ] [INFO ] [51fe201211ca9720] [stractV4_1__RenameDbJoinKey:47] [main                ] - join.key not persisted in db, nothing to migrate
+2025-06-10T13:13:55.659Z [jfac ] [INFO ] [51fe201211ca9720] [actV4_11__TlsMinimalVersion:38] [main                ] - TLS minimal allowed version migration started.
+2025-06-10T13:13:55.659Z [jfac ] [INFO ] [51fe201211ca9720] [actV4_11__TlsMinimalVersion:44] [main                ] - Access configuration not persisted in db, nothing to migrate.
+2025-06-10T13:13:55.663Z [jfac ] [INFO ] [51fe201211ca9720] [DefaultProjectConfiguration:52] [main                ] - Rename `global` project configuration to `default` start.
+2025-06-10T13:13:55.665Z [jfac ] [INFO ] [51fe201211ca9720] [DefaultProjectConfiguration:55] [main                ] - global config not persisted in db, nothing to migrate
+2025-06-10T13:13:55.675Z [jfac ] [INFO ] [51fe201211ca9720] [tConfigurationDefaultValues:43] [main                ] - Set default values to `default` project.
+2025-06-10T13:13:55.676Z [jfac ] [INFO ] [51fe201211ca9720] [tConfigurationDefaultValues:46] [main                ] - global config not persisted in db, nothing to migrate
+2025-06-10T13:13:55.681Z [jfac ] [INFO ] [51fe201211ca9720] [ctV4_15__ProjectRolesAction:91] [main                ] - Convert role actions
+2025-06-10T13:13:55.693Z [jfac ] [INFO ] [51fe201211ca9720] [17__ProjectUsersToLowerCase:48] [main                ] - Convert project users to lower case.
+2025-06-10T13:13:55.700Z [jfac ] [INFO ] [51fe201211ca9720] [_ProjectRolesAdvancedAction:55] [main                ] - Convert role actions
+2025-06-10T13:13:55.702Z [jfac ] [INFO ] [51fe201211ca9720] [.j.a.s.d.m.ProjectsMigrator:87] [main                ] - Convert role actions
+2025-06-10T13:13:55.709Z [jfac ] [INFO ] [51fe201211ca9720] [__ProjectResourceDefaultEnv:48] [main                ] - Convert role actions
+2025-06-10T13:13:55.714Z [jfac ] [INFO ] [51fe201211ca9720] [_20__DefaultRoleEnvironment:46] [main                ] - Convert role actions
+2025-06-10T13:13:55.720Z [jfac ] [INFO ] [51fe201211ca9720] [stractV4_21__PasswordPolicy:44] [main                ] - Access config Password policy migration started.
+2025-06-10T13:13:55.720Z [jfac ] [INFO ] [51fe201211ca9720] [stractV4_21__PasswordPolicy:50] [main                ] - Access configuration not persisted in db, nothing to migrate.
+2025-06-10T13:13:55.725Z [jfac ] [INFO ] [51fe201211ca9720] [ProjectRolesPipelinesAction:27] [main                ] - Convert role actions
+2025-06-10T13:13:55.726Z [jfac ] [INFO ] [51fe201211ca9720] [.j.a.s.d.m.ProjectsMigrator:87] [main                ] - Convert role actions
+2025-06-10T13:13:55.731Z [jfac ] [INFO ] [51fe201211ca9720] [ctV4_24__ProjectRolesPerEnv:17] [main                ] - Convert role actions
+2025-06-10T13:13:55.732Z [jfac ] [INFO ] [51fe201211ca9720] [.j.a.s.d.m.ProjectsMigrator:87] [main                ] - Convert role actions
+2025-06-10T13:13:55.737Z [jfac ] [INFO ] [51fe201211ca9720] [ctV4_25__AddGlobalRolesMask:43] [main                ] - Converting roles add mask with default
+2025-06-10T13:13:55.738Z [jfac ] [INFO ] [51fe201211ca9720] [ctV4_25__AddGlobalRolesMask:52] [main                ] - Config roles.v2.global.configuration wasn't found on DB, skipping converter
+2025-06-10T13:13:55.742Z [jfac ] [INFO ] [51fe201211ca9720] [6__CovertProjectAdminToRole:49] [main                ] - Converts project admin privileges to action.
+2025-06-10T13:13:55.748Z [jfac ] [INFO ] [51fe201211ca9720] [__ProjectReleaseManagerRole:15] [main                ] - Convert releaser role
+2025-06-10T13:13:55.748Z [jfac ] [INFO ] [51fe201211ca9720] [.j.a.s.d.m.ProjectsMigrator:87] [main                ] - Convert role actions
+2025-06-10T13:13:55.754Z [jfac ] [INFO ] [51fe201211ca9720] [rojectStorageQuotaSoftLimit:50] [main                ] - Convert project storage quota.
+2025-06-10T13:13:55.765Z [jfac ] [INFO ] [51fe201211ca9720] [13_0_1__ProjectResourcesMap:55] [main                ] - Convert project storage quota.
+2025-06-10T13:13:55.770Z [jfac ] [INFO ] [51fe201211ca9720] [jectKeyInsteadOfProjectName:52] [main                ] - Convert project name to project key
+2025-06-10T13:13:55.776Z [jfac ] [INFO ] [51fe201211ca9720] [jectAdminCanDoDefaultValues:57] [main                ] - Add project admin can do values
+2025-06-10T13:13:55.794Z [jfac ] [INFO ] [51fe201211ca9720] [_ProjectSecurityManagerRole:47] [main                ] - Convert global roles
+2025-06-10T13:13:55.800Z [jfac ] [INFO ] [51fe201211ca9720] [__RemoveXrayAdminPrivileges:51] [main                ] - Convert global roles
+2025-06-10T13:13:55.837Z [jfac ] [INFO ] [51fe201211ca9720] [9_0_0__AddCheckDBPrimaryKey:22] [main                ] - Convert CheckDB Primary key
+2025-06-10T13:13:55.839Z [jfac ] [INFO ] [51fe201211ca9720] [9_0_0__AddCheckDBPrimaryKey:44] [main                ] - querying SELECT * FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS WHERE CONSTRAINT_NAME='access_db_check_pk'
+2025-06-10T13:13:55.868Z [jfac ] [INFO ] [51fe201211ca9720] [0_1_0__ReadPolicyRoleAction:42] [main                ] - Migrate readPolicy action
+2025-06-10T13:13:55.911Z [jfac ] [INFO ] [51fe201211ca9720] [nEntitiesFromDefaultProject:44] [main                ] - Remove non admin entities from projects configuration.
+2025-06-10T13:13:55.916Z [jfac ] [INFO ] [51fe201211ca9720] [_AddPermissionActionIndexes:26] [main                ] - Started adding permission action indexes
+2025-06-10T13:13:55.917Z [jfac ] [INFO ] [51fe201211ca9720] [_AddPermissionActionIndexes:54] [main                ] - Creating index access_perm_act_user_id_idx
+2025-06-10T13:13:55.918Z [jfac ] [INFO ] [51fe201211ca9720] [_AddPermissionActionIndexes:54] [main                ] - Creating index access_perm_act_group_id_idx
+2025-06-10T13:13:55.919Z [jfac ] [INFO ] [51fe201211ca9720] [_AddPermissionActionIndexes:30] [main                ] - Done adding permission action indexes
+2025-06-10T13:13:55.947Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:122] [main                ] - Migrate permissions V2
+2025-06-10T13:13:55.957Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:210] [main                ] - Migration in progress: Found 0 rows in the access permissions table before migration
+2025-06-10T13:13:55.958Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:213] [main                ] - Migration in progress: Found 0 rows in the access permissions actions table before migration
+2025-06-10T13:13:55.959Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:217] [main                ] - Migration in progress: Found 0 rows in the access permissions custom data table before migration
+2025-06-10T13:13:55.959Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:225] [main                ] - Migration in progress: Assembled 0 legacy Permissions before migration
+2025-06-10T13:13:55.960Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:229] [main                ] - Migration in progress: Converted 0 legacy Permissions to V2. Separating the Permission V2 full model to DB models
+2025-06-10T13:13:55.961Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:237] [main                ] - Migration in progress: Permissions V2 full model was seperated to DB models, starting generating legacy permissions mappers
+2025-06-10T13:13:55.961Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:241] [main                ] - Migration in progress: Permissions V2 DB models are ready to be inserted to the relevant tables. Rows that will be inserted - dbPermissionsV2 [0] dbPermissionActionsV2 [0] dbPermissionTargetsV2[0] dbPermissionsMapper [0]
+2025-06-10T13:13:55.962Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:248] [main                ] - Migration in progress: Inserting Permissions V2 DB models to the DB - dbPermissionsV2 [0] dbPermissionActionsV2 [0] dbPermissionTargetsV2[0]
+2025-06-10T13:13:55.963Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:253] [main                ] - Migration in progress: Permissions V2 DB models were inserted to the DB, inserting the permissions name mappers - dbPermissionsMapper [0]
+2025-06-10T13:13:55.963Z [jfac ] [INFO ] [51fe201211ca9720] [PermissionsV2DataMigration:266] [main                ] - Migration Summary: Conversion of 0 legacy permissions to 0 v2 permissions succeeded in 0 seconds
+2025-06-10T13:13:56.027Z [jfac ] [INFO ] [51fe201211ca9720] [ymousFromDefaultPermissions:52] [main                ] - Checking if to remove anonymous user from default permissions.
+2025-06-10T13:13:56.027Z [jfac ] [INFO ] [51fe201211ca9720] [ymousFromDefaultPermissions:74] [main                ] - Could not get access config from database. Assuming anonymous access is disabled.
+2025-06-10T13:13:56.028Z [jfac ] [INFO ] [51fe201211ca9720] [ymousFromDefaultPermissions:60] [main                ] - Anonymous access is disabled. Anonymous user will be removed from default permissions.
+2025-06-10T13:13:56.028Z [jfac ] [INFO ] [51fe201211ca9720] [ymousFromDefaultPermissions:81] [main                ] - Could not find anonymous user. No changes have been made.
+2025-06-10T13:13:56.037Z [jfac ] [INFO ] [51fe201211ca9720] [moveRouterServiceIdMappings:44] [main                ] - Migrating router service id mapping from federation
+2025-06-10T13:13:56.037Z [jfac ] [INFO ] [51fe201211ca9720] [moveRouterServiceIdMappings:48] [main                ] - Access configuration not persisted in db, nothing to migrate.
+2025-06-10T13:13:56.077Z [jfac ] [INFO ] [51fe201211ca9720] [0__MigrateProjectsOnceAgain:46] [main                ] - Migrating projects
+2025-06-10T13:13:56.096Z [jfac ] [WARN ] [51fe201211ca9720] [7_108_2__MigrateGlobalRoles:49] [main                ] - Skipped roles migration, default project not found
+2025-06-10T13:13:56.124Z [jfac ] [INFO ] [51fe201211ca9720] [igrateProjectRolesOnceAgain:68] [main                ] - No projects found, skipping migration
+2025-06-10T13:13:56.142Z [jfac ] [INFO ] [51fe201211ca9720] [ionsToProjectAdminOnceAgain:38] [main                ] - Add destination actions to project admin role
+2025-06-10T13:13:56.143Z [jfac ] [WARN ] [51fe201211ca9720] [ionsToProjectAdminOnceAgain:95] [main                ] - No Project Admin roles not found. Skipping destination actions update for Projects V2 roles.
+2025-06-10T13:13:56.163Z [jfac ] [INFO ] [51fe201211ca9720] [RemoveDuplicatesV1Resources:44] [main                ] - Removing duplicate resources from projects.
+2025-06-10T13:13:56.178Z [jfac ] [INFO ] [51fe201211ca9720] [__RemoveAutoSharedResources:25] [main                ] - Removing auto shared resources from shared resources table
+2025-06-10T13:13:56.194Z [jfac ] [INFO ] [51fe201211ca9720] [_0__AddApplicationAdminRole:53] [main                ] - Add application admin role to all projects
+2025-06-10T13:13:56.198Z [jfac ] [WARN ] [51fe201211ca9720] [0__AddApplicationAdminRole:143] [main                ] - Role with id 1 has no environment actions. Skipping application actions update for Projects V2 roles.
+2025-06-10T13:13:56.203Z [jfac ] [INFO ] [51fe201211ca9720] [_AddMlActionsToProjectAdmin:61] [main                ] - Add ml actions to project admin role
+2025-06-10T13:13:56.204Z [jfac ] [WARN ] [51fe201211ca9720] [AddMlActionsToProjectAdmin:138] [main                ] - No Project Admin roles not found. Skipping ml actions update for Projects V2 roles.
+2025-06-10T13:13:56.399Z [jfac ] [INFO ] [51fe201211ca9720] [j.a.m.ConfigMigrationRunner:77] [main                ] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-06-10T13:13:56.426Z [jfac ] [INFO ] [51fe201211ca9720] [alConfigurationServiceBase:189] [main                ] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-06-10T13:13:56.611Z [jfac ] [INFO ] [51fe201211ca9720] [a.k.m.MasterKeyBootstrapper:77] [main                ] - No master.key supplied. Generating master.key
+2025-06-10T13:13:56.669Z [jfac ] [INFO ] [51fe201211ca9720] [.k.m.MasterKeyBootstrapper:151] [main                ] - Saving master.key to /opt/jfrog/artifactory/var/etc/security/master.key
+2025-06-10T13:13:56.928Z [jfac ] [INFO ] [51fe201211ca9720] [.s.s.s.ServiceConfigFactory:47] [main                ] - Initializing task scheduler with 9 threads
+2025-06-10T13:13:56.950Z [jfac ] [INFO ] [51fe201211ca9720] [j.a.s.s.t.TokenServiceImpl:251] [main                ] - Scheduling task for revoking expired tokens using cron expression: 7 28 0/1 * * ?
+2025-06-10T13:13:57.886Z [jfac ] [INFO ] [51fe201211ca9720] [b.AccessServerBootstrapImpl:54] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2025-06-10T13:13:58.161Z [jfac ] [INFO ] [51fe201211ca9720] [b.AccessServerBootstrapImpl:70] [main                ] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2025-06-10T13:13:58.163Z [jfac ] [INFO ] [51fe201211ca9720] [.s.j.JfConnectConfiguration:43] [main                ] - JFCON entitlements are disabled. jfconnect.enabled and jflink.enabled are false or undefined
+2025-06-10T13:13:58.634Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.a.s.s.JoinKeyAccess:316   ] [main                ] - Cluster join: Join key loaded successfully (from: generated)
+2025-06-10T13:13:58.670Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.a.s.s.JoinKeyAccess:154   ] [main                ] - Will be adding main key with kid fff0ae45a9f2024e83f035988e5b9b1000352de261f68126c35b517723da1192 to the map
+2025-06-10T13:13:59.354Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.a.s.r.s.GrpcServerImpl:112] [main                ] - Starting gRPC Server on port 8045
+2025-06-10T13:13:59.524Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.a.s.r.s.GrpcServerImpl:148] [main                ] - gRPC Server started, listening on 8045
+2025-06-10T13:13:59.642Z [jfac ] [INFO ] [51fe201211ca9720] [a.s.b.AccessServerRegistrar:73] [main                ] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2025-06-10T13:13:59.651Z [jfac ] [INFO ] [51fe201211ca9720] [h.AccessNodeIdProviderImpl:138] [main                ] - Service id initialized: jfac@01jxczkt322jg01c76hase12yj, for tenant: single_tenant
+2025-06-10T13:13:59.672Z [jfac ] [INFO ] [1e31d84f46b3410a] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling loadCertificates task to run every 30 seconds
+2025-06-10T13:13:59.677Z [jfac ] [INFO ] [1e31d84f46b3410a] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling federationCleanupService task to run every 1209600 seconds
+2025-06-10T13:13:59.684Z [jfac ] [INFO ] [b5ea05244eab24b0] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling heartbeat task to run every 5 seconds
+2025-06-10T13:13:59.688Z [jfac ] [INFO ] [b5ea05244eab24b0] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling KeepAliveFederationServers task to run every 86400 seconds
+2025-06-10T13:13:59.693Z [jfac ] [INFO ] [                ] [.j.a.s.s.SystemScheduledJob:37] [main                ] - Scheduling Readiness task to run with 15000 milliseconds fixed delay
+2025-06-10T13:13:59.699Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling unusedLicensesCleanup task to run every 86400 seconds
+2025-06-10T13:13:59.728Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling StaleTokenCleanupJob task to run every 3600 seconds
+2025-06-10T13:13:59.733Z [jfac ] [INFO ] [                ] [.s.t.NotifyTokenExpiryTask:136] [main                ] - New cron schedule expression for notifying user of expiring tokens - 0 00 8 * * ?
+2025-06-10T13:13:59.738Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling EmailsLogCleanup task to run every 86400 seconds
+2025-06-10T13:13:59.740Z [jfac ] [INFO ] [                ] [a.c.RefreshableScheduledJob:53] [main                ] - Scheduling PasswordExpiryEmailReminder task to run every 86400 seconds
+2025-06-10T13:14:00.270Z [jfac ] [INFO ] [                ] [o.j.a.AccessApplication:59    ] [main                ] - Started AccessApplication in 8.299 seconds (process running for 10.345)
+2025-06-10T13:14:00.277Z [jfac ] [INFO ] [                ] [s.d.u.AccessJdbcHelperImpl:168] [main                ] - Notifying tenants on DB migration completion
+2025-06-10T13:14:01.079Z [jfac ] [INFO ] [49e99cb293ed834d] [o.j.a.s.s.JoinKeyAccess:174   ] [27.0.0.1-8040-exec-1] - Cluster join: Join keys resolved successfully
+2025-06-10T13:14:01.079Z [jfac ] [WARN ] [49e99cb293ed834d] [o.j.a.s.s.JoinKeyAccess:189   ] [27.0.0.1-8040-exec-1] - Adding join key with kid: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 to additional join keys
+2025-06-10T13:14:01.153Z [jfac ] [INFO ] [49e99cb293ed834d] [.j.a.s.s.r.JoinServiceImpl:109] [27.0.0.1-8040-exec-1] - Router join request: using external topology so skipping router NodeId and IP validation
+2025-06-10T13:14:01.475Z [jfac ] [INFO ] [49e99cb293ed834d] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-1] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T13:14:01.498Z [jfac ] [INFO ] [49e99cb293ed834d] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jfrou@01jxczksfcmskx4nvm10wangmy with node id dfa365fa2a12
+2025-06-10T13:14:01.761Z [jfac ] [INFO ] [49e99cb293ed834d] [CertificateFileHandlerBase:200] [27.0.0.1-8040-exec-1] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T13:14:02.612Z [jfac ] [INFO ] [51fe201211ca9720] [.AccessWithRouterRegistrar:124] [jf-common-pool-1    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2025-06-10T13:14:02.614Z [jfac ] [INFO ] [51fe201211ca9720] [.s.b.AccessServerRegistrar:155] [jf-common-pool-1    ] - [ACCESS BOOTSTRAP] Updating server 'dfa365fa2a12' private key finger print to: 815a8acba03aef867c9d292bbc5a1bc6e980aeb1eba5c9b3722cbf174c6efe6f ca private key finger print to: 5fbf8d90bcdd20803c220a2a6932546e1069446947a5931704eec0e0fabb76aa
+2025-06-10T13:14:02.621Z [jfac ] [INFO ] [51fe201211ca9720] [j.a.s.s.j.MTJFConfigWrapper:62] [jf-common-pool-1    ] - [JFConfig] Initializing
+2025-06-10T13:14:02.633Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 1 Elapsed 10 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:02 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:02.737Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 2 Elapsed 113 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:02 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:02.941Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 3 Elapsed 318 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:02 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:03.344Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 4 Elapsed 720 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:03 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:03.618Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 1 Elapsed 1.01 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:04.124Z [jfac ] [INFO ] [09710e4e4ac46231] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfrt@01jxczkwnw56fw0bfx62g8008g with node id dfa365fa2a12
+2025-06-10T13:14:04.148Z [jfac ] [ERROR] [51fe201211ca9720] [o.j.c.ExecutionUtils:305      ] [jf-common-pool-0    ] - Last retry failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:04 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Not trying again (exceeded number of attempts (5))
+2025-06-10T13:14:04.254Z [jfac ] [INFO ] [64ec07e162b1460a] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-9] - Cluster join: Successfully joined jfevt@01jxczkt322jg01c76hase12yj with node id dfa365fa2a12
+2025-06-10T13:14:04.257Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 1 Elapsed 3 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:04 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:04.362Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 2 Elapsed 108 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:04 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:04.495Z [jfac ] [INFO ] [13fd7575f694bf95] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfmd@01jxczkswc5zjphzmg0860wfxd with node id dfa365fa2a12
+2025-06-10T13:14:04.567Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-2    ] - Retry 3 Elapsed 313 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:04 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:04.726Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 2 Elapsed 2.11 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:04.972Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 4 Elapsed 717 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:04 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:05.775Z [jfac ] [ERROR] [51fe201211ca9720] [o.j.c.ExecutionUtils:305      ] [jf-common-pool-2    ] - Last retry failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:05 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Not trying again (exceeded number of attempts (5))
+2025-06-10T13:14:05.931Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 3 Elapsed 3.32 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:05.955Z [jfac ] [INFO ] [13b8e2a8d8a4180f] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-4] - Cluster join: Successfully joined jfcfg@01jxczkt322jg01c76hase12yj with node id dfa365fa2a12
+2025-06-10T13:14:05.980Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 1 Elapsed 2 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:05 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:06.085Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 2 Elapsed 107 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:06 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:06.292Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-0    ] - Retry 3 Elapsed 314 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:06 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:06.703Z [jfac ] [WARN ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-4    ] - Retry 4 Elapsed 724 millis failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:06 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Trying again
+2025-06-10T13:14:07.335Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 4 Elapsed 4.72 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:07.507Z [jfac ] [ERROR] [51fe201211ca9720] [o.j.c.ExecutionUtils:305      ] [jf-common-pool-0    ] - Last retry failed: Hard error while trying to reach peer node ''. Servers versions match? [localhost:8046]. Status code: UNIMPLEMENTED. HTTP status code 404
+invalid content-type: text/plain; charset=utf-8
+headers: Metadata(:status=404,content-type=text/plain; charset=utf-8,x-content-type-options=nosniff,date=Tue, 10 Jun 2025 13:14:07 GMT,content-length=19)
+DATA-----------------------------
+404 page not found
+. Not trying again (exceeded number of attempts (5))
+2025-06-10T13:14:07.997Z [jfac ] [INFO ] [51fe201211ca9720] [j.a.s.s.j.MTJFConfigWrapper:64] [jf-common-pool-1    ] - [JFConfig] Initialized
+2025-06-10T13:14:08.046Z [jfac ] [INFO ] [51fe201211ca9720] [FeatureAdoptionServiceImpl:148] [jf-common-pool-1    ] - FeatureAdoption Framework Service is already disabled
+2025-06-10T13:14:08.072Z [jfac ] [INFO ] [51fe201211ca9720] [a.s.b.AccessServerRegistrar:85] [jf-common-pool-1    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2025-06-10T13:14:08.777Z [jfac ] [INFO ] [7a1f5594c5494ba5] [o.j.m.MetricsHelper:64        ] [jf-access-grpc-11   ] - Initializing Metrics collector and logger for feature adoption...
+2025-06-10T13:14:08.779Z [jfac ] [INFO ] [7a1f5594c5494ba5] [FeatureAdoptionServiceImpl:140] [jf-access-grpc-11   ] - FeatureAdoption Framework service is started and is running in background...
+2025-06-10T13:14:08.798Z [jfac ] [INFO ] [                ] [FeatureAdoptionServiceImpl:130] [c-default-executor-1] - FeatureAdoption Framework Service is already running
+2025-06-10T13:14:08.959Z [jfac ] [INFO ] [130e8ad43516849e] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-9] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-06-10T13:14:09.142Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 5 Elapsed 6.53 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:09.165Z [jfac ] [INFO ] [6e577bc32f2c04ee] [j.a.m.ConfigMigrationRunner:77] [27.0.0.1-8040-exec-1] - AccessConfigMigration (version 2) is up to date, nothing to migrate
+2025-06-10T13:14:09.373Z [jfac ] [INFO ] [6a039b7c5ba054c3] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-2] - Cluster join: Successfully joined jfob@01jxczkwnw56fw0bfx62g8008g with node id dfa365fa2a12
+2025-06-10T13:14:09.684Z [jfac ] [INFO ] [0956f4e4b4013c2a] [alConfigurationServiceBase:189] [27.0.0.1-8040-exec-5] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2025-06-10T13:14:10.093Z [jfac ] [INFO ] [787a61782164b3f1] [.r.ServiceTokenProviderImpl:89] [27.0.0.1-8040-exec-5] - Cluster join: Successfully joined jffe@01jxczkt322jg01c76hase12yj with node id dfa365fa2a12
+2025-06-10T13:14:11.153Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 6 Elapsed 8.54 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:13.172Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 7 Elapsed 10.56 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:15.190Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 8 Elapsed 12.58 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:17.202Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 9 Elapsed 14.59 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:19.212Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 10 Elapsed 16.6 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:21.225Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 11 Elapsed 18.61 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:23.240Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 12 Elapsed 20.63 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:25.256Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 13 Elapsed 22.64 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:27.268Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 14 Elapsed 24.66 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:29.284Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-1    ] - Retry 15 Elapsed 26.67 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:31.297Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 16 Elapsed 28.69 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
+2025-06-10T13:14:36.812Z [jfac ] [ERROR] [0cf3ed5e45d3a2af] [.j.m.s.MetricsStorageClient:54] [jf-access-grpc-8    ] - [Metrics Framework] Store: authentication:adoption:login:apiKey_false:realm_internal:token_true already configured.

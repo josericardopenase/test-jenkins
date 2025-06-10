@@ -1,0 +1,15 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /observability/(.*)
+          replace: /$1
+      port: 8036
+      protocol: 1
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8036
+nodeid: dfa365fa2a12
+nodestatusendpoint: null
+revision: 32a7df0e03
+serviceid: jfob@01jxczkwnw56fw0bfx62g8008g
+version: 2.2.5

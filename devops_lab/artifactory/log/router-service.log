@@ -1,0 +1,220 @@
+2025-06-10T13:13:48.977Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:91               ] [main                ] [] - Router (jfrou) service initialization started. Version: 7.165.3-1 Revision: 391b2a8fde6f7f096030383ff956ce845b214d43 PID: 5105 Home: /opt/jfrog/artifactory
+2025-06-10T13:13:48.978Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:94               ] [main                ] [] - JFrog Router IP: 172.23.0.2
+2025-06-10T13:13:48.979Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:95               ] [main                ] [] - Effective configuration:
+access.http.port (Default Value): 8040
+access.jfconfig.enabled (Environment Variable: JF_ACCESS_JFCONFIG_ENABLED): true
+access.useexternaltopology (Environment Variable: JF_ACCESS_USEEXTERNALTOPOLOGY): true
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /opt/jfrog/artifactory/var/work/run/artifactory.pid
+artifactory.user (Environment Variable: JF_ARTIFACTORY_USER): artifactory
+legacy.artifactory.pid (Environment Variable: JF_LEGACY_ARTIFACTORY_PID): /opt/jfrog/artifactory/app/run/artifactory.pid
+product.data.internal (Environment Variable: JF_PRODUCT_DATA_INTERNAL): /var/opt/jfrog/artifactory
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.autoMemLimitRatio (Default Value): 0.9
+router.availabilityZoneOptimization.loggingIntervalSecs (Default Value): 600
+router.encryptSystemConfig (Default Value): true
+router.entrypoints.externalHost (Default Value): 
+router.entrypoints.externalMaxConcurrentStreams (Default Value): 500
+router.entrypoints.externalPort (Default Value): 8082
+router.entrypoints.grpcPort (Default Value): 8047
+router.entrypoints.hotPathLogEnabled (Default Value): true
+router.entrypoints.internalMaxConcurrentStreams (Default Value): 500
+router.entrypoints.internalPort (Default Value): 8046
+router.entrypoints.traefikApiPort (Default Value): 8049
+router.httpclient.requestTimeoutSecs (Default Value): 30
+router.lifecycle.shutdown.entrypointsGraceTimeout (Default Value): 10s
+router.lifecycle.shutdown.externalEntrypointsRequestAcceptGraceTimeout (Default Value): 0s
+router.lifecycle.shutdown.internalJobsGraceTimeout (Default Value): 7s
+router.logging.application.caller (Default Value): false
+router.logging.application.console (Default Value): true
+router.logging.application.filePath (Default Value): router-service.log
+router.logging.application.format (Default Value): jftext
+router.logging.application.level (Default Value): info
+router.logging.application.rotation.compress (Default Value): true
+router.logging.application.rotation.keepLastDecompressed (Default Value): 1
+router.logging.application.rotation.maxAgeDays (Default Value): 0
+router.logging.application.rotation.maxFiles (Default Value): 10
+router.logging.application.rotation.maxSizeMb (Default Value): 25
+router.logging.consoleLog.format (Default Value): jftext
+router.logging.request.filePath (Default Value): router-request.log
+router.logging.request.forwardedForLogging.enabled (Default Value): false
+router.logging.request.forwardedForLogging.header (Default Value): X-Forwarded-For
+router.logging.request.rotation.compress (Default Value): true
+router.logging.request.rotation.keepLastDecompressed (Default Value): 1
+router.logging.request.rotation.maxAgeDays (Default Value): 0
+router.logging.request.rotation.maxFiles (Default Value): 10
+router.logging.request.rotation.maxSizeMb (Default Value): 100
+router.logging.request.tokenIdLoggingEnabled (Default Value): false
+router.logging.request.verbose (Default Value): false
+router.logging.traefik.caller (Default Value): false
+router.logging.traefik.console (Default Value): false
+router.logging.traefik.filePath (Default Value): router-traefik.log
+router.logging.traefik.format (Default Value): jftext
+router.logging.traefik.level (Default Value): info
+router.logging.traefik.rotation.compress (Default Value): true
+router.logging.traefik.rotation.keepLastDecompressed (Default Value): 1
+router.logging.traefik.rotation.maxAgeDays (Default Value): 0
+router.logging.traefik.rotation.maxFiles (Default Value): 10
+router.logging.traefik.rotation.maxSizeMb (Default Value): 25
+router.masterKeyRemoval.heartbeatCount (Default Value): 3
+router.masterKeyRemoval.intervalSecs (Default Value): 60
+router.masterKeyRemoval.timeoutSecs (Default Value): 600
+router.metrics.tokenVerification.accessUrl (Default Value): 
+router.metrics.tokenVerification.revocableExpiryThresholdSeconds (Default Value): -1
+router.mtls.configCacheErrorExpirationSecs (Default Value): 15
+router.mtls.configCacheExpirationSecs (Default Value): 600
+router.multiTenant.cacheExpirySecs (Default Value): 86400
+router.multiTenant.cacheGcPeriodSecs (Default Value): 600
+router.multiTenant.transport.idleConnTimeoutSecs (Default Value): 5
+router.multiTenant.transport.insecureSkipVerify (Default Value): true
+router.probes.liveness.failOnLongFailingReadiness.enabled (Default Value): true
+router.probes.liveness.failOnLongFailingReadiness.failureDurationSecs (Default Value): 60
+router.probes.readiness.externalTopologyAccessFailThreshold (Default Value): 10
+router.profiling.enabled (Default Value): false
+router.profiling.pprofServerPort (Default Value): 6060
+router.profiling.pprofServerTimeoutSeconds (Default Value): 21600
+router.proxy.httpUrl (Default Value): 
+router.proxy.httpsUrl (Default Value): 
+router.proxy.ignoredHosts (Default Value): []
+router.redirectUnknownPathToArtifactoryEnabled (Default Value): false
+router.retry.enabled (Default Value): false
+router.retry.enabledOnUnavailable (Default Value): true
+router.security.cipherSuites (Default Value): TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256,TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256,TLS_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_CHACHA20_POLY1305_SHA256,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305,TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
+router.serviceRegistry.accessUrl (Applicative Resolution): http://localhost:8040/access
+router.serviceRegistry.insecure (Default Value): false
+router.serviceRegistry.requestTimeout (Default Value): 15s
+router.serviceRegistry.skipJoinConnectivityTest (Default Value): false
+router.serviceRegistry.topologyServiceTokenExpirySecs (Default Value): 7200
+router.serviceRegistry.topologyUrl (Applicative Resolution): http://localhost:8020/topology
+router.serviceRegistry.useTopologyService (Default Value): false
+router.supportBundle.aggregationTimeout (Default Value): 1h0m0s
+router.topology.external.allowH2c (Default Value): true
+router.topology.external.healthRequestTimeoutSecs (Default Value): 5
+router.topology.external.protocolFinderCacheSecs (Default Value): 600
+router.topology.external.refresh.interval (Default Value): 3s
+router.topology.external.refresh.maxStaleHeartbeat (Default Value): 30s
+router.topology.external.skipIpCheck (Default Value): false
+router.topology.local.enableNodeStatusBroadcast (Default Value): true
+router.topology.local.healthCheck.healthyThreshold (Default Value): 2
+router.topology.local.healthCheck.interval (Default Value): 5s
+router.topology.local.healthCheck.requestTimeout (Default Value): 5s
+router.topology.local.healthCheck.unhealthyThreshold (Default Value): 2
+router.topology.local.ignorePersistedServices (Default Value): false
+router.topology.local.requiredServiceTypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfob,jfevt,jfcfg,jftpl
+shared.database.driver (File): org.postgresql.Driver
+shared.database.password (File): *****
+shared.database.type (File): postgresql
+shared.database.url (File): jdbc:postgresql://host.docker.internal:5432/artifactorydb
+shared.database.username (File): artifactory
+shared.jfrogUrl (Default Value): 
+shared.logging.consoleLog.format (Default Value): shared.logging.consoleLog.format
+shared.logging.enableJsonConsoleLogAppenders (Default Value): false
+shared.multiTenant.cellId (Default Value): 
+shared.multiTenant.enabled (Default Value): false
+shared.multiTenant.keyPrefix (Default Value): 
+shared.multiTenant.tenantRegistryClient.caCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.cacheExpirationSecs (Default Value): 21600
+shared.multiTenant.tenantRegistryClient.clientCert (Default Value): 
+shared.multiTenant.tenantRegistryClient.clientCertKey (Default Value): *****
+shared.multiTenant.tenantRegistryClient.dialTimeoutSecs (Default Value): 10
+shared.multiTenant.tenantRegistryClient.endpoints (Default Value): []
+shared.multiTenant.tenantRegistryClient.requestTimeoutSecs (Default Value): 30
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node.availabilityZoneId (Default Value): 
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): dfa365fa2a12
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 172.23.0.2
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): dfa365fa2a12
+shared.node.port (Default Value): 0
+shared.node.tlsEnabled (Default Value): false
+shared.restrictedmode.enabled (Environment Variable: JF_SHARED_RESTRICTEDMODE_ENABLED): true
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 300
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyExternal (Default Value): false
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml
+topology.grpc.port (Default Value): 8021
+topology.port (Default Value): 8020
+2025-06-10T13:13:53.988Z [jfrou] [INFO ] [009cf9c86f19797d] [security_keys.go:172          ] [main                ] [] - Master key is missing. Pending for 5 seconds with 5m0s timeout
+2025-06-10T13:13:59.008Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:144              ] [main                ] [] - System configuration encryption report:
+shared.database.password: encrypted successfully
+shared.multiTenant.tenantRegistryClient.clientCertKey: does not exist in the config file
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2025-06-10T13:13:59.019Z [jfrou] [INFO ] [009cf9c86f19797d] [environment.go:63             ] [main                ] [] - MemoryLimit set to 0 (ratio: 0.90)
+2025-06-10T13:13:59.022Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:99               ] [main                ] [] - JFrog Router Service ID: jfrou@01jxczksfcmskx4nvm10wangmy
+2025-06-10T13:13:59.022Z [jfrou] [INFO ] [009cf9c86f19797d] [bootstrap.go:100              ] [main                ] [] - JFrog Router Node ID: dfa365fa2a12
+2025-06-10T13:13:59.032Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:36                 ] [main                ] [] - System cert pool contents were loaded as trusted CAs for TLS communication
+2025-06-10T13:13:59.034Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:58                 ] [main                ] [] - No certificate to be loaded as trusted CAs found in []
+2025-06-10T13:13:59.035Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:36                 ] [main                ] [] - System cert pool contents were loaded as trusted CAs for TLS communication
+2025-06-10T13:13:59.036Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:58                 ] [main                ] [] - No certificate to be loaded as trusted CAs found in []
+2025-06-10T13:14:00.981Z [jfrou] [INFO ] [009cf9c86f19797d] [config_holder.go:130          ] [main                ] [] - Configuration update detected
+2025-06-10T13:14:01.015Z [jfrou] [INFO ] [009cf9c86f19797d] [join_executor.go:116          ] [main                ] [] - Cluster join: Trying to rejoin the cluster http://localhost:8040/access
+2025-06-10T13:14:01.771Z [jfrou] [INFO ] [009cf9c86f19797d] [join_executor.go:213          ] [main                ] [] - Cluster join: Successfully joined the cluster. Using token with id cba0233e-8d1f-423a-a8c0-b97051681fa6
+2025-06-10T13:14:01.773Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:36                 ] [main                ] [] - System cert pool contents were loaded as trusted CAs for TLS communication
+2025-06-10T13:14:01.773Z [jfrou] [INFO ] [009cf9c86f19797d] [trusted.go:56                 ] [main                ] [] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2025-06-10T13:14:01.800Z [jfrou] [INFO ] [009cf9c86f19797d] [mtls_client.go:180            ] [main                ] [] - Starting access config update job to run every 10m0s
+2025-06-10T13:14:01.801Z [jfrou] [INFO ] [009cf9c86f19797d] [cal_topology_broadcaster.go:70] [main                ] [] - Starting local node health status broadcaster...
+2025-06-10T13:14:01.801Z [jfrou] [INFO ] [009cf9c86f19797d] [traefik_config.go:111         ] [main                ] [] - Searching for Traefik configuration override values in file: /opt/jfrog/artifactory/var/etc/router/traefik.toml
+2025-06-10T13:14:01.803Z [jfrou] [INFO ] [009cf9c86f19797d] [server_handler.go:62          ] [main                ] [] - gRPC server listening on: localhost:8047
+2025-06-10T13:14:01.804Z [jfrou] [INFO ] [009cf9c86f19797d] [registry_handler.go:114       ] [main                ] [] - Persisted local services: []
+2025-06-10T13:14:01.804Z [jfrou] [INFO ] [009cf9c86f19797d] [service_registry.go:142       ] [main                ] [] - Registering Topology as local service
+2025-06-10T13:14:01.805Z [jfrou] [INFO ] [009cf9c86f19797d] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jftpl@0000 , Node ID: dfa365fa2a12
+2025-06-10T13:14:01.806Z [jfrou] [INFO ] [009cf9c86f19797d] [hot_paths_unix.go:25          ] [main                ] [] - Dump of the requests: start listening for SIGUSR2 signals
+2025-06-10T13:14:01.807Z [jfrou] [INFO ] [009cf9c86f19797d] [handler.go:163                ] [main                ] [] - Traefik server started on ports: 8082 (external), 8046 (internal), 8049 (Traefik API)
+2025-06-10T13:14:01.869Z [jfrou] [INFO ] [009cf9c86f19797d] [local_topology.go:135         ] [main                ] [] - Required service types: [jfrt jfac jfmd jffe jfob jfevt jfcfg jftpl]
+2025-06-10T13:14:01.869Z [jfrou] [INFO ] [009cf9c86f19797d] [main.go:57                    ] [main                ] [] - Router (jfrou) service initialization completed in 12.904 seconds. Listening on port: 8082
+2025-06-10T13:14:01.869Z [jfrou] [INFO ] [009cf9c86f19797d] [pprof_server_unix.go:23       ] [main                ] [] - Starting SIGUSR2 listener for pprof server
+2025-06-10T13:14:02.606Z [jfrou] [INFO ] [5b72a2bcd8ce1580] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfac@01jxczkt322jg01c76hase12yj , Node ID: dfa365fa2a12
+2025-06-10T13:14:02.614Z [jfrou] [WARN ] [76edfc3f12c37f1b] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jfmd jffe jfob jfevt jfcfg]
+2025-06-10T13:14:03.617Z [jfrou] [WARN ] [52e7d91bc8a8b729] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jfmd jffe jfob jfevt jfcfg]
+2025-06-10T13:14:03.721Z [jfrou] [WARN ] [74b2f753f487fc69] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jfmd jffe jfob jfevt jfcfg]
+2025-06-10T13:14:04.260Z [jfrou] [INFO ] [4e78674fcea9c2cc] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfevt@01jxczkt322jg01c76hase12yj , Node ID: dfa365fa2a12
+2025-06-10T13:14:04.341Z [jfrou] [WARN ] [6a039b7c5ba054c3] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jfmd jffe jfob jfcfg]
+2025-06-10T13:14:04.408Z [jfrou] [WARN ] [0e95c8a6be570d89] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jftpl_0000-dfa365fa2a12' using URL 'http://localhost:8020/topology/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:04.408Z [jfrou] [WARN ] [0e95c8a6be570d89] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jfac jfmd jffe jfob jfevt jfcfg]
+2025-06-10T13:14:04.409Z [jfrou] [WARN ] [0e95c8a6be570d89] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:04.504Z [jfrou] [INFO ] [13fd7575f694bf95] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfmd@01jxczkswc5zjphzmg0860wfxd , Node ID: dfa365fa2a12
+2025-06-10T13:14:04.724Z [jfrou] [WARN ] [106a8008917132f3] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jfrt jffe jfob jfcfg]
+2025-06-10T13:14:04.790Z [jfrou] [INFO ] [39b9f1f80691e951] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfrt@01jxczkwnw56fw0bfx62g8008g , Node ID: dfa365fa2a12
+2025-06-10T13:14:04.899Z [jfrou] [WARN ] [51871645dd50cbd9] [routing_handler.go:371        ] [main                ] [] - No external routes detected, the traefik external routes will be emptied
+2025-06-10T13:14:04.928Z [jfrou] [WARN ] [699ae65a5063e718] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob jfcfg]
+2025-06-10T13:14:05.016Z [jfrou] [INFO ] [5cea9691b61fe183] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 added (jftpl@01jxczkrd3316c1s7459e3027y skipped UNHEALTHY)
+2025-06-10T13:14:05.181Z [jfrou] [WARN ] [136908e4bac54033] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob jfcfg]
+2025-06-10T13:14:05.930Z [jfrou] [WARN ] [6c95009430d4c3f6] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob jfcfg]
+2025-06-10T13:14:06.088Z [jfrou] [INFO ] [4eef5641028e74df] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfcfg@01jxczkt322jg01c76hase12yj , Node ID: dfa365fa2a12
+2025-06-10T13:14:06.333Z [jfrou] [WARN ] [6ae189043a2c0c6b] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:06.874Z [jfrou] [WARN ] [5abfab223189b362] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfrt_01jxczkwnw56fw0bfx62g8008g-dfa365fa2a12' using URL 'http://localhost:8091/artifactory/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:06.874Z [jfrou] [WARN ] [5abfab223189b362] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jftpl_0000-dfa365fa2a12' using URL 'http://localhost:8020/topology/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:06.878Z [jfrou] [WARN ] [5abfab223189b362] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfac_01jxczkt322jg01c76hase12yj-dfa365fa2a12' using URL 'http://localhost:8040/access/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:07.334Z [jfrou] [WARN ] [219f3aecb57c98da] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:08.137Z [jfrou] [WARN ] [133dd68a9b6e8777] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:08.760Z [jfrou] [WARN ] [5abfab223189b362] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:08.760Z [jfrou] [WARN ] [5abfab223189b362] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:09.141Z [jfrou] [WARN ] [2b46f4269d7439a6] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:09.347Z [jfrou] [WARN ] [6a039b7c5ba054c3] [local_topology_helper.go:68   ] [main                ] [] - Missing required services: [jffe jfob]
+2025-06-10T13:14:09.378Z [jfrou] [INFO ] [6a039b7c5ba054c3] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jfob@01jxczkwnw56fw0bfx62g8008g , Node ID: dfa365fa2a12
+2025-06-10T13:14:10.109Z [jfrou] [WARN ] [6856421a695dee2e] [service_registry.go:69        ] [main                ] [] - Service jffe@01jxczkt322jg01c76hase12yj from Node dfa365fa2a12 registered without version/revision information: /
+2025-06-10T13:14:10.109Z [jfrou] [INFO ] [6856421a695dee2e] [local_topology.go:248         ] [main                ] [] - Adding local service. Service ID: jffe@01jxczkt322jg01c76hase12yj , Node ID: dfa365fa2a12
+2025-06-10T13:14:11.019Z [jfrou] [INFO ] [20158feca0111874] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 added (jfac@01jxczkt322jg01c76hase12yj skipped UNHEALTHY,jfcfg@01jxczkt322jg01c76hase12yj skipped UNHEALTHY_PEER,jfevt@01jxczkt322jg01c76hase12yj skipped UNHEALTHY_PEER,jfmd@01jxczkswc5zjphzmg0860wfxd skipped UNHEALTHY_PEER,jfrt@01jxczkwnw56fw0bfx62g8008g skipped UNHEALTHY)
+2025-06-10T13:14:11.876Z [jfrou] [WARN ] [1b469a08b6e5f81a] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfac_01jxczkt322jg01c76hase12yj-dfa365fa2a12' using URL 'http://localhost:8040/access/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:11.878Z [jfrou] [WARN ] [1b469a08b6e5f81a] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfrt_01jxczkwnw56fw0bfx62g8008g-dfa365fa2a12' using URL 'http://localhost:8091/artifactory/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:11.880Z [jfrou] [WARN ] [1b469a08b6e5f81a] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:14.025Z [jfrou] [INFO ] [57e255c04c18a4bf] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 added (jffe@01jxczkt322jg01c76hase12yj skipped UNHEALTHY_PEER,jfob@01jxczkwnw56fw0bfx62g8008g skipped UNHEALTHY_PEER)
+2025-06-10T13:14:16.889Z [jfrou] [WARN ] [2bcf595a1fb52954] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfrt_01jxczkwnw56fw0bfx62g8008g-dfa365fa2a12' using URL 'http://localhost:8091/artifactory/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:16.894Z [jfrou] [WARN ] [2bcf595a1fb52954] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:17.019Z [jfrou] [INFO ] [700c1eb574a191c9] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 state changed (jftpl@01jxczkrd3316c1s7459e3027y UNHEALTHY_PEER)
+2025-06-10T13:14:21.891Z [jfrou] [WARN ] [51166712165ab9d7] [healthcheck.go:70             ] [main                ] [] - Checking health of service 'jfrt_01jxczkwnw56fw0bfx62g8008g-dfa365fa2a12' using URL 'http://localhost:8091/artifactory/api/v1/system/readiness' returned unexpected response status: 503
+2025-06-10T13:14:21.892Z [jfrou] [WARN ] [51166712165ab9d7] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:23.034Z [jfrou] [INFO ] [13eddb8f6f467bc5] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 state changed (jfac@01jxczkt322jg01c76hase12yj UNHEALTHY_PEER)
+2025-06-10T13:14:26.890Z [jfrou] [WARN ] [1c50a752f98cde1f] [local_topology.go:370         ] [main                ] [] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2025-06-10T13:14:31.892Z [jfrou] [INFO ] [433dd68a3a4a50ce] [local_topology.go:382         ] [main                ] [] - 
+###############################################################
+###   All services started successfully in 42.923 seconds   ###
+###############################################################
+2025-06-10T13:14:32.023Z [jfrou] [INFO ] [0fc408b1e0ea3e51] [external_topology.go:283      ] [main                ] [] - Topology changes details: External Topology changed: dfa365fa2a12 state changed (jfac@01jxczkt322jg01c76hase12yj HEALTHY,jfcfg@01jxczkt322jg01c76hase12yj HEALTHY,jfevt@01jxczkt322jg01c76hase12yj HEALTHY,jffe@01jxczkt322jg01c76hase12yj HEALTHY,jfmd@01jxczkswc5zjphzmg0860wfxd HEALTHY,jfob@01jxczkwnw56fw0bfx62g8008g HEALTHY,jfrt@01jxczkwnw56fw0bfx62g8008g HEALTHY,jftpl@01jxczkrd3316c1s7459e3027y HEALTHY)
+2025-06-10T13:14:32.025Z [jfrou] [INFO ] [0fc408b1e0ea3e51] [routing_handler.go:373        ] [main                ] [] - External topology is changed, updating traefik external routes
+2025-06-10T13:14:35.930Z [jfrou] [INFO ] [009cf9c86f19797d] [auth_middleware.go:56         ] [main                ] [] - Creating a new dedicated gRPC connection for localhost:8046

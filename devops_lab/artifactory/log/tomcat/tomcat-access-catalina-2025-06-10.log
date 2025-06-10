@@ -1,0 +1,10 @@
+10-Jun-2025 13:13:50.240 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sendReasonPhrase] to [false]
+10-Jun-2025 13:13:50.633 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+10-Jun-2025 13:13:50.677 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2025 13:13:50.678 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-Jun-2025 13:13:50.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/access/tomcat/conf/Catalina/localhost/access.xml]
+10-Jun-2025 13:13:50.725 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/access] in deployment descriptor [/opt/jfrog/artifactory/app/access/tomcat/conf/Catalina/localhost/access.xml] has been ignored
+10-Jun-2025 13:14:00.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/access/tomcat/conf/Catalina/localhost/access.xml] has finished in [9,659] ms
+10-Jun-2025 13:14:00.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/jfrog/artifactory/app/access/tomcat/webapps/ROOT]
+10-Jun-2025 13:14:00.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/jfrog/artifactory/app/access/tomcat/webapps/ROOT] has finished in [10] ms
+10-Jun-2025 13:14:00.372 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8040"]

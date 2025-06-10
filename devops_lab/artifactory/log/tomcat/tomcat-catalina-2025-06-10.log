@@ -1,0 +1,15 @@
+10-Jun-2025 13:13:50.170 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [sendReasonPhrase] to [false]
+10-Jun-2025 13:13:50.502 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+10-Jun-2025 13:13:50.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+10-Jun-2025 13:13:50.594 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2025 13:13:50.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.40]
+10-Jun-2025 13:13:50.615 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/var/opt/jfrog/artifactory/etc/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+10-Jun-2025 13:13:50.651 WARNING [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/artifactory] in deployment descriptor [/var/opt/jfrog/artifactory/etc/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has been ignored
+10-Jun-2025 13:13:50.739 WARNING [Catalina-utility-1] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/CookieProcessor] failed to set property [forwardSlashIsSeparator] to [false]
+10-Jun-2025 13:13:57.807 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/var/opt/jfrog/artifactory/etc/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [7,191] ms
+10-Jun-2025 13:13:57.808 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+10-Jun-2025 13:13:57.809 WARNING [Catalina-utility-1] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/CookieProcessor] failed to set property [forwardSlashIsSeparator] to [false]
+10-Jun-2025 13:13:57.830 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [22] ms
+10-Jun-2025 13:13:57.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+10-Jun-2025 13:13:57.842 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8091"]
+10-Jun-2025 13:14:03.883 SEVERE [2025-06-10T13:14:02.293Z|e8d7c69626aeaf64|art-exec-1] org.glassfish.jersey.server.spring.SpringComponentProvider.bind None or multiple beans found in Spring context for type class com.jfrog.bh.resource.BundleReceivedResource, skipping the type.

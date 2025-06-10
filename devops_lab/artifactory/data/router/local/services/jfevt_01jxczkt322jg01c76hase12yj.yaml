@@ -1,0 +1,21 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /event/(.*)
+          replace: /$1
+      port: 8061
+      protocol: 1
+    - excludedpaths: []
+      paths:
+        - match: /com\.jfrog\.event\..*
+          replace: ""
+      port: 8062
+      protocol: 2
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8061
+nodeid: dfa365fa2a12
+nodestatusendpoint: null
+revision: 84f024f1b1
+serviceid: jfevt@01jxczkt322jg01c76hase12yj
+version: 7.169.2

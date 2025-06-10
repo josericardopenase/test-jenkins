@@ -1,0 +1,19 @@
+endpoints:
+    - excludedpaths: []
+      paths:
+        - match: /ui/(.*)
+          replace: /$1
+        - match: /ui
+          replace: /
+        - match: /
+          replace: ""
+      port: 8070
+      protocol: 1
+healthcheckendpoint:
+    path: /readiness
+    port: 8070
+nodeid: dfa365fa2a12
+nodestatusendpoint: null
+revision: ""
+serviceid: jffe@01jxczkt322jg01c76hase12yj
+version: ""

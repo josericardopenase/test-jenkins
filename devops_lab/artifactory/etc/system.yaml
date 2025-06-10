@@ -1,0 +1,7 @@
+shared:
+    database:
+        driver: org.postgresql.Driver
+        type: postgresql
+        url: jdbc:postgresql://host.docker.internal:5432/artifactorydb
+        username: artifactory
+        password: 07d9d9.aesgcm256.nnlad0VfuxU5hCzOTrnuTVRgxsYiBtbPo6L6e8vrknZoWGU_

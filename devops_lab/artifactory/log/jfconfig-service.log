@@ -1,0 +1,28 @@
+2025-06-10T13:13:51.300Z [jfcfg] [INFO ] [                ] [plicationContextInitializer:76] [main                ] - jfconfig (jfcfg) service initialization started. Version: 1.60.4 Revision: 16004900 PID: 8529 Home: /opt/jfrog/artifactory
+2025-06-10T13:13:51.304Z [jfcfg] [INFO ] [                ] [plicationContextInitializer:40] [main                ] - JFConfig service deployment type: OnPrem
+2025-06-10T13:13:53.093Z [jfcfg] [INFO ] [                ] [c.j.j.s.l.RequestLogHelper:25 ] [main                ] - HttpRequestConfig: Config[filterPaths=[], filterStatusCodes=[], filterDurationThreshold=100]
+2025-06-10T13:13:53.098Z [jfcfg] [INFO ] [                ] [c.j.j.s.l.RequestLogHelper:26 ] [main                ] - GrpcRequestConfig: Config[filterPaths=[], filterStatusCodes=[], filterDurationThreshold=100]
+2025-06-10T13:13:57.314Z [jfcfg] [INFO ] [                ] [ingleTenantAccessThinClient:60] [main                ] - Cluster join: Retry 5:  Service registry ping failed, will retry. Error: I/O error on GET request for "http://localhost:8046/access/api/v1/system/ping": Connection refused
+2025-06-10T13:14:02.337Z [jfcfg] [INFO ] [                ] [ingleTenantAccessThinClient:60] [main                ] - Cluster join: Retry 10:  Service registry ping failed, will retry. Error: 404 Not Found on GET request for "http://localhost:8046/access/api/v1/system/ping": "404 page not found<EOL>"
+2025-06-10T13:14:04.357Z [jfcfg] [INFO ] [                ] [ServiceIdSingleTenantConfig:28] [main                ] - Service id initialized: jfcfg@01jxczkt322jg01c76hase12yj
+2025-06-10T13:14:04.947Z [jfcfg] [INFO ] [                ] [c.j.j.s.a.GrpcServerImpl:72   ] [main                ] - Starting gRPC Server on port 8011
+2025-06-10T13:14:04.954Z [jfcfg] [INFO ] [                ] [c.j.j.s.l.RequestLogHelper:25 ] [main                ] - HttpRequestConfig: Config[filterPaths=[], filterStatusCodes=[], filterDurationThreshold=100]
+2025-06-10T13:14:04.954Z [jfcfg] [INFO ] [                ] [c.j.j.s.l.RequestLogHelper:26 ] [main                ] - GrpcRequestConfig: Config[filterPaths=[], filterStatusCodes=[], filterDurationThreshold=100]
+2025-06-10T13:14:05.021Z [jfcfg] [INFO ] [                ] [c.j.j.s.a.GrpcServerImpl:93   ] [main                ] - gRPC Server started, listening on 8011
+2025-06-10T13:14:05.029Z [jfcfg] [INFO ] [                ] [c.j.j.s.j.HeartBeatJob:43     ] [main                ] - Starting a Heartbeat job
+2025-06-10T13:14:05.033Z [jfcfg] [INFO ] [                ] [c.j.j.s.m.MetricsService:73   ] [main                ] - Metrics Framework Service is enabled
+2025-06-10T13:14:05.037Z [jfcfg] [INFO ] [                ] [c.j.j.s.m.MetricsService:87   ] [main                ] - Metric Framework service is started and is running in background...
+2025-06-10T13:14:05.336Z [jfcfg] [INFO ] [                ] [j.j.JFConfigStartUpListener:39] [main                ] - JFConfig started applying migration
+2025-06-10T13:14:05.629Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:63    ] [main                ] - Database migration started
+2025-06-10T13:14:05.655Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:72    ] [main                ] - Latest pending Flyway changelog: 1.0
+2025-06-10T13:14:05.667Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:75    ] [main                ] - Current Flyway changelog: none
+2025-06-10T13:14:05.668Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:77    ] [main                ] - Database migration in progress...
+2025-06-10T13:14:05.723Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.MigrationCallback:20] [main                ] - Applying changelog: 1.0 (initial schema)
+2025-06-10T13:14:05.726Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.MigrationCallback:24] [main                ] - Applied changelog: 1.0 (initial schema)
+2025-06-10T13:14:05.753Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:82    ] [main                ] - Current Flyway changelog: 1.0
+2025-06-10T13:14:05.753Z [jfcfg] [INFO ] [                ] [c.j.j.s.c.FlywayFactory:84    ] [main                ] - Database migration done
+2025-06-10T13:14:05.754Z [jfcfg] [INFO ] [                ] [j.j.JFConfigStartUpListener:41] [main                ] - JFConfig finished applying migration
+2025-06-10T13:14:05.754Z [jfcfg] [INFO ] [                ] [essSingleTenantClientConfig:65] [main                ] - Creating access client for single tenant
+2025-06-10T13:14:05.915Z [jfcfg] [INFO ] [                ] [.a.c.AccessClientBootstrap:179] [main                ] - Cluster join: Executing join on 'http://localhost:8046/access'
+2025-06-10T13:14:05.963Z [jfcfg] [INFO ] [                ] [.a.c.AccessClientBootstrap:190] [main                ] - Cluster join: Successfully joined the cluster
+2025-06-10T13:14:06.098Z [jfcfg] [INFO ] [                ] [j.j.JFConfigStartUpListener:46] [main                ] - jfconfig (jfcfg) service initialization completed in 16.333 seconds. Listening on port: 8010

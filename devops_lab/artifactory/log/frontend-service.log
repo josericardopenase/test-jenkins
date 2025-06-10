@@ -1,0 +1,20 @@
+2025-06-10T13:13:49.553Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - frontend (jffe) service initialization started. Version: 1.175.3 Revision: 10000003 PID: 6390 Home: /opt/jfrog/artifactory
+2025-06-10T13:13:49.554Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - Starting FE server in ST mode
+2025-06-10T13:13:49.554Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - attempting pinging artifactory for 300 retires and 1.0s interval for total of 5 minutes
+2025-06-10T13:13:58.732Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - pinging artifactory, attempt number 10
+2025-06-10T13:13:58.734Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
+2025-06-10T13:14:08.886Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - pinging artifactory, attempt number 20
+2025-06-10T13:14:08.892Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - pinging artifactory attempt number 20 failed with code : ERR_BAD_RESPONSE
+2025-06-10T13:14:10.052Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - artifactory was pinged successfully
+2025-06-10T13:14:10.095Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - Cluster join: Successfully joined the cluster
+2025-06-10T13:14:10.099Z [jffe ] [[31M[WARN ][39M] [] [frontend-service.log] [main                ] - Missing service version information to be sent to Router Registration
+2025-06-10T13:14:10.099Z [jffe ] [[31M[WARN ][39M] [] [frontend-service.log] [main                ] - Missing service revision information to be sent to Router Registration
+2025-06-10T13:14:10.115Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - UI service successfully registered on router, serviceId: jffe@01jxczkt322jg01c76hase12yj
+2025-06-10T13:14:10.259Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - [HPM] Proxy created: /  -> http://localhost:8046/artifactory
+2025-06-10T13:14:10.259Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - [HPM] Proxy created: /  -> http://localhost:8046/artifactory
+2025-06-10T13:14:10.259Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - [HPM] Proxy created: /  -> http://localhost:8046/artifactory
+2025-06-10T13:14:10.260Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - [HPM] Proxy created: /  -> http://localhost:8046/artifactory
+2025-06-10T13:14:10.295Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - Recurring tasks started
+2025-06-10T13:14:10.295Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - frontend (jffe) service initialization completed in 20.89 seconds. Listening on port: port 8070
+2025-06-10T13:21:07.353Z [jffe ] [[31M[WARN ][39M] [56c41e2ab5a3abc7] [frontend-service.log] [main                ] - JFConnect is disabled, Entitlements were accessed while jfconnect is disabled.
+2025-06-10T13:23:54.325Z [jffe ] [[31M[WARN ][39M] [39fe20a61d6ff889] [frontend-service.log] [main                ] - JFConnect is disabled, Entitlements were accessed while jfconnect is disabled.
