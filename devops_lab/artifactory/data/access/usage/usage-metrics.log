@@ -166,3 +166,87 @@ adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoptio
 adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749563948992
 adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749563948992
 
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564008995
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564008995
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564008995
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564069000
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564069000
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564069000
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564129004
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564129004
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564129004
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564189007
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564189007
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564189007
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564249010
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564249010
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564249010
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564309011
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564309011
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564309011
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564369011
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564369011
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564369011
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564429015
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564429015
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564429015
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564489018
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564489018
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564489018
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564549024
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564549024
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564549024
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564609028
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564609028
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564609028
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564669035
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564669035
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564669035
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564729038
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564729038
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564729038
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564789042
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564789042
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564789042
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564849045
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564849045
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564849045
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564909052
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564909052
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564909052
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749564969056
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749564969056
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749564969056
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749565029059
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749565029059
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749565029059
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749565089065
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749565089065
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749565089065
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749565149068
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749565149068
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749565149068
+
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749565209070
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749565209070
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749565209070
+

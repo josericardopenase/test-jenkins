@@ -86,3 +86,4 @@ topology.tomcat.config (Default Value):
 2025-06-10T13:14:04.833Z [jftpl] [INFO ] [51871645dd50cbd9] [.a.c.AccessClientBootstrap:190] [jf-common-pool-0    ] - Cluster join: Successfully joined the cluster
 2025-06-10T13:14:04.834Z [jftpl] [INFO ] [51871645dd50cbd9] [c.j.t.s.a.AccessJoiner:50     ] [jf-common-pool-0    ] - Successfully joined Access
 2025-06-10T13:14:07.840Z [jftpl] [INFO ] [cc0f8f57eecaa815] [c.j.t.s.s.HealthCheckRunner:37] [topology-scheduler-1] - Service node has become healthy
+2025-06-10T14:13:52.897Z [jftpl] [INFO ] [3b35b1042c5ec799] [.SingleTenantCleanupService:31] [topology-scheduler-1] - Cleaning up stale nodes
