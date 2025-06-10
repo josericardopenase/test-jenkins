@@ -162,3 +162,7 @@ adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoptio
 adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749563888989
 adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749563888989
 
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="true"} 25 1749563948992
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="internal",token="false"} 2 1749563948992
+adoption_jfac_authentication_count{action="login",apiKey="false",domain="adoption",realm="null",success="false",token="false"} 2 1749563948992
+
