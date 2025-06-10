@@ -344,3 +344,5 @@
 2025-06-10T13:33:57.268Z|510a8778af9475c2|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
 2025-06-10T13:34:02.271Z|5ee0b2b1954d7142|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
 2025-06-10T13:34:07.272Z|280506c0b7218556|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
+2025-06-10T13:34:12.273Z|72feebd8bb01b78d|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
+2025-06-10T13:34:17.272Z|5707602890684354|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1

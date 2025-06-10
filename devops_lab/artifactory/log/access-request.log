@@ -734,3 +734,6 @@
 2025-06-10T13:34:05.680Z|70d2d1ea93d8f9a1|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/config/shared|200|133|-1|10|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
 2025-06-10T13:34:07.275Z|280506c0b7218556|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|5|JFrog-Router/7.165.3-1
 2025-06-10T13:34:09.763Z|716f3c2b715611ee|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-10T13:34:12.280Z|72feebd8bb01b78d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|7|JFrog-Router/7.165.3-1
+2025-06-10T13:34:12.298Z|72feebd8bb01b78d|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|5|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-10T13:34:17.276Z|5707602890684354|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
