@@ -243,3 +243,114 @@ DATA-----------------------------
 2025-06-10T13:14:31.297Z [jfac ] [INFO ] [51fe201211ca9720] [o.j.c.ExecutionUtils:289      ] [jf-common-pool-3    ] - Retry 16 Elapsed 28.69 secs failed: Router readiness on URL http://localhost:8046/router/api/v1/system/readiness failed with error: Router readiness failed with status 503. Trying again
 2025-06-10T13:14:36.812Z [jfac ] [ERROR] [0cf3ed5e45d3a2af] [.j.m.s.MetricsStorageClient:54] [jf-access-grpc-8    ] - [Metrics Framework] Store: authentication:adoption:login:apiKey_false:realm_internal:token_true already configured.
 2025-06-10T14:13:59.752Z [jfac ] [INFO ] [e70be9b86e5a1616] [ributedStaleTokenCleanupJob:58] [jf-access-task8     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
+2025-06-10T14:39:50.042Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T14:39:50.046Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-3] - Stream cancelled
+2025-06-10T14:39:50.886Z [jfac ] [INFO ] [9a80a4d0d0869284] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task7     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749565818830]
+2025-06-10T14:39:50.898Z [jfac ] [INFO ] [9a80a4d0d0869284] [CertificateFileHandlerBase:167] [jf-access-task7     ] - Loading ca certificate from database.
+2025-06-10T14:39:51.021Z [jfac ] [INFO ] [9a80a4d0d0869284] [CertificateFileHandlerBase:200] [jf-access-task7     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T14:39:51.023Z [jfac ] [INFO ] [9a80a4d0d0869284] [CertificateFileHandlerBase:167] [jf-access-task7     ] - Loading root certificate from database.
+2025-06-10T14:39:51.091Z [jfac ] [INFO ] [9a80a4d0d0869284] [CertificateFileHandlerBase:200] [jf-access-task7     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T15:23:26.838Z [jfac ] [INFO ] [b75509a3cfe53e86] [ributedStaleTokenCleanupJob:58] [jf-access-task4     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
+2025-06-10T17:22:11.347Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T17:22:11.358Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-5] - Stream cancelled
+2025-06-10T17:22:12.891Z [jfac ] [INFO ] [9a8201901b88a30a] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task2     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749571309223]
+2025-06-10T17:22:12.906Z [jfac ] [INFO ] [9a8201901b88a30a] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading ca certificate from database.
+2025-06-10T17:22:13.158Z [jfac ] [INFO ] [9a8201901b88a30a] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T17:22:13.178Z [jfac ] [INFO ] [9a8201901b88a30a] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading root certificate from database.
+2025-06-10T17:22:13.455Z [jfac ] [INFO ] [9a8201901b88a30a] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T17:53:41.101Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T17:53:41.104Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-5] - Stream cancelled
+2025-06-10T17:53:41.915Z [jfac ] [INFO ] [799c58edc933ff8e] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task2     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749576153796]
+2025-06-10T17:53:41.916Z [jfac ] [INFO ] [799c58edc933ff8e] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading ca certificate from database.
+2025-06-10T17:53:41.987Z [jfac ] [INFO ] [799c58edc933ff8e] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T17:53:41.989Z [jfac ] [INFO ] [799c58edc933ff8e] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading root certificate from database.
+2025-06-10T17:53:42.051Z [jfac ] [INFO ] [799c58edc933ff8e] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T18:14:48.352Z [jfac ] [INFO ] [16964944eab82f85] [ributedStaleTokenCleanupJob:58] [jf-access-task5     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
+2025-06-10T19:14:48.436Z [jfac ] [INFO ] [4fa83b968c4ebdc1] [ributedStaleTokenCleanupJob:58] [jf-access-task2     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
+2025-06-10T20:20:22.076Z [jfac ] [INFO ] [68c7c6151edf8fff] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task9     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749585853860]
+2025-06-10T20:20:22.079Z [jfac ] [INFO ] [68c7c6151edf8fff] [CertificateFileHandlerBase:167] [jf-access-task9     ] - Loading ca certificate from database.
+2025-06-10T20:20:22.149Z [jfac ] [INFO ] [68c7c6151edf8fff] [CertificateFileHandlerBase:200] [jf-access-task9     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T20:20:22.151Z [jfac ] [INFO ] [68c7c6151edf8fff] [CertificateFileHandlerBase:167] [jf-access-task9     ] - Loading root certificate from database.
+2025-06-10T20:20:22.214Z [jfac ] [INFO ] [68c7c6151edf8fff] [CertificateFileHandlerBase:200] [jf-access-task9     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T20:55:43.332Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T20:55:43.335Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-5] - Stream cancelled
+2025-06-10T20:55:47.643Z [jfac ] [INFO ] [dac823841980ef87] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task8     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749586847296]
+2025-06-10T20:55:47.645Z [jfac ] [INFO ] [dac823841980ef87] [CertificateFileHandlerBase:167] [jf-access-task8     ] - Loading ca certificate from database.
+2025-06-10T20:55:47.726Z [jfac ] [INFO ] [dac823841980ef87] [CertificateFileHandlerBase:200] [jf-access-task8     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T20:55:47.728Z [jfac ] [INFO ] [dac823841980ef87] [CertificateFileHandlerBase:167] [jf-access-task8     ] - Loading root certificate from database.
+2025-06-10T20:55:47.787Z [jfac ] [INFO ] [dac823841980ef87] [CertificateFileHandlerBase:200] [jf-access-task8     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T21:34:05.287Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T21:34:05.288Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-5] - Stream cancelled
+2025-06-10T21:34:10.156Z [jfac ] [INFO ] [c11946dd1568d188] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task2     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749588972853]
+2025-06-10T21:34:10.158Z [jfac ] [INFO ] [c11946dd1568d188] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading ca certificate from database.
+2025-06-10T21:34:10.246Z [jfac ] [INFO ] [c11946dd1568d188] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T21:34:10.247Z [jfac ] [INFO ] [c11946dd1568d188] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading root certificate from database.
+2025-06-10T21:34:10.305Z [jfac ] [INFO ] [c11946dd1568d188] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T21:49:56.839Z [jfac ] [INFO ] [3155869210e40d59] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task8     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749591270338]
+2025-06-10T21:49:56.842Z [jfac ] [INFO ] [3155869210e40d59] [CertificateFileHandlerBase:167] [jf-access-task8     ] - Loading ca certificate from database.
+2025-06-10T21:49:56.926Z [jfac ] [INFO ] [3155869210e40d59] [CertificateFileHandlerBase:200] [jf-access-task8     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T21:49:56.927Z [jfac ] [INFO ] [3155869210e40d59] [CertificateFileHandlerBase:167] [jf-access-task8     ] - Loading root certificate from database.
+2025-06-10T21:49:56.984Z [jfac ] [INFO ] [3155869210e40d59] [CertificateFileHandlerBase:200] [jf-access-task8     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T22:12:56.954Z [jfac ] [INFO ] [8ba85dd972e520be] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task2     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749592222040]
+2025-06-10T22:12:56.956Z [jfac ] [INFO ] [8ba85dd972e520be] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading ca certificate from database.
+2025-06-10T22:12:57.045Z [jfac ] [INFO ] [8ba85dd972e520be] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T22:12:57.047Z [jfac ] [INFO ] [8ba85dd972e520be] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading root certificate from database.
+2025-06-10T22:12:57.105Z [jfac ] [INFO ] [8ba85dd972e520be] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T22:12:57.905Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T22:12:57.908Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-10T23:25:23.276Z [jfac ] [INFO ] [749130634e5959d7] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task3     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749593602732]
+2025-06-10T23:25:23.279Z [jfac ] [INFO ] [749130634e5959d7] [CertificateFileHandlerBase:167] [jf-access-task3     ] - Loading ca certificate from database.
+2025-06-10T23:25:23.367Z [jfac ] [INFO ] [749130634e5959d7] [CertificateFileHandlerBase:200] [jf-access-task3     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-10T23:25:23.368Z [jfac ] [INFO ] [749130634e5959d7] [CertificateFileHandlerBase:167] [jf-access-task3     ] - Loading root certificate from database.
+2025-06-10T23:25:23.425Z [jfac ] [INFO ] [749130634e5959d7] [CertificateFileHandlerBase:200] [jf-access-task3     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-10T23:25:23.530Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-10T23:25:23.531Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-11T00:27:22.576Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-11T00:27:22.577Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-11T00:27:23.280Z [jfac ] [INFO ] [a4e6177f0c4f6698] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task3     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749597948696]
+2025-06-11T00:27:23.281Z [jfac ] [INFO ] [a4e6177f0c4f6698] [CertificateFileHandlerBase:167] [jf-access-task3     ] - Loading ca certificate from database.
+2025-06-11T00:27:23.363Z [jfac ] [INFO ] [a4e6177f0c4f6698] [CertificateFileHandlerBase:200] [jf-access-task3     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T00:27:23.364Z [jfac ] [INFO ] [a4e6177f0c4f6698] [CertificateFileHandlerBase:167] [jf-access-task3     ] - Loading root certificate from database.
+2025-06-11T00:27:23.421Z [jfac ] [INFO ] [a4e6177f0c4f6698] [CertificateFileHandlerBase:200] [jf-access-task3     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T01:45:50.088Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-11T01:45:50.090Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-11T01:45:50.896Z [jfac ] [INFO ] [2b2889e66b9936e6] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task6     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749601668800]
+2025-06-11T01:45:50.898Z [jfac ] [INFO ] [2b2889e66b9936e6] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading ca certificate from database.
+2025-06-11T01:45:50.989Z [jfac ] [INFO ] [2b2889e66b9936e6] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T01:45:50.990Z [jfac ] [INFO ] [2b2889e66b9936e6] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading root certificate from database.
+2025-06-11T01:45:51.047Z [jfac ] [INFO ] [2b2889e66b9936e6] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T03:05:38.397Z [jfac ] [INFO ] [5da916f224e6ba83] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task6     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749606376102]
+2025-06-11T03:05:38.399Z [jfac ] [INFO ] [5da916f224e6ba83] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading ca certificate from database.
+2025-06-11T03:05:38.487Z [jfac ] [INFO ] [5da916f224e6ba83] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T03:05:38.489Z [jfac ] [INFO ] [5da916f224e6ba83] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading root certificate from database.
+2025-06-11T03:05:38.548Z [jfac ] [INFO ] [5da916f224e6ba83] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T04:05:15.834Z [jfac ] [INFO ] [885fc0fc144eeb5b] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task6     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749611163611]
+2025-06-11T04:05:15.836Z [jfac ] [INFO ] [885fc0fc144eeb5b] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading ca certificate from database.
+2025-06-11T04:05:15.917Z [jfac ] [INFO ] [885fc0fc144eeb5b] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T04:05:15.918Z [jfac ] [INFO ] [885fc0fc144eeb5b] [CertificateFileHandlerBase:167] [jf-access-task6     ] - Loading root certificate from database.
+2025-06-11T04:05:15.978Z [jfac ] [INFO ] [885fc0fc144eeb5b] [CertificateFileHandlerBase:200] [jf-access-task6     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T05:17:11.591Z [jfac ] [INFO ] [9d99f6b4fbb230fb] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task9     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749614742334]
+2025-06-11T05:17:11.592Z [jfac ] [INFO ] [9d99f6b4fbb230fb] [CertificateFileHandlerBase:167] [jf-access-task9     ] - Loading ca certificate from database.
+2025-06-11T05:17:11.664Z [jfac ] [INFO ] [9d99f6b4fbb230fb] [CertificateFileHandlerBase:200] [jf-access-task9     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T05:17:11.666Z [jfac ] [INFO ] [9d99f6b4fbb230fb] [CertificateFileHandlerBase:167] [jf-access-task9     ] - Loading root certificate from database.
+2025-06-11T05:17:11.724Z [jfac ] [INFO ] [9d99f6b4fbb230fb] [CertificateFileHandlerBase:200] [jf-access-task9     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T06:35:23.678Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-11T06:35:23.679Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-11T06:35:27.479Z [jfac ] [INFO ] [b5d05cd5cd057bea] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task1     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749619056794]
+2025-06-11T06:35:27.481Z [jfac ] [INFO ] [b5d05cd5cd057bea] [CertificateFileHandlerBase:167] [jf-access-task1     ] - Loading ca certificate from database.
+2025-06-11T06:35:27.569Z [jfac ] [INFO ] [b5d05cd5cd057bea] [CertificateFileHandlerBase:200] [jf-access-task1     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T06:35:27.570Z [jfac ] [INFO ] [b5d05cd5cd057bea] [CertificateFileHandlerBase:167] [jf-access-task1     ] - Loading root certificate from database.
+2025-06-11T06:35:27.628Z [jfac ] [INFO ] [b5d05cd5cd057bea] [CertificateFileHandlerBase:200] [jf-access-task1     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T07:19:06.786Z [jfac ] [INFO ] [754763d764064196] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task2     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749623752692]
+2025-06-11T07:19:06.792Z [jfac ] [INFO ] [754763d764064196] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading ca certificate from database.
+2025-06-11T07:19:06.879Z [jfac ] [INFO ] [754763d764064196] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T07:19:06.880Z [jfac ] [INFO ] [754763d764064196] [CertificateFileHandlerBase:167] [jf-access-task2     ] - Loading root certificate from database.
+2025-06-11T07:19:06.938Z [jfac ] [INFO ] [754763d764064196] [CertificateFileHandlerBase:200] [jf-access-task2     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T07:45:50.237Z [jfac ] [INFO ] [                ] [ffectedConfigStreamObserver:35] [resubscribe         ] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2025-06-11T07:45:50.240Z [jfac ] [INFO ] [                ] [.s.j.c.g.GrpcStreamObserver:92] [c-default-executor-7] - Stream cancelled
+2025-06-11T07:45:54.463Z [jfac ] [INFO ] [c301a6f4fff7df06] [o.j.a.s.s.c.s.HeartbeatJob:93 ] [jf-access-task5     ] - Refreshing server state after it was considered as stale by peers [last previous successful update 1749626462215]
+2025-06-11T07:45:54.465Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:167] [jf-access-task5     ] - Loading ca certificate from database.
+2025-06-11T07:45:54.554Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:200] [jf-access-task5     ] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2025-06-11T07:45:54.555Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:167] [jf-access-task5     ] - Loading root certificate from database.
+2025-06-11T07:45:54.613Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:200] [jf-access-task5     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2025-06-11T07:48:23.647Z [jfac ] [INFO ] [d8ad11cc917610bd] [ributedStaleTokenCleanupJob:58] [jf-access-task5     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
