@@ -18,3 +18,6 @@
 2025-06-10T13:14:10.295Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - frontend (jffe) service initialization completed in 20.89 seconds. Listening on port: port 8070
 2025-06-10T13:21:07.353Z [jffe ] [[31M[WARN ][39M] [56c41e2ab5a3abc7] [frontend-service.log] [main                ] - JFConnect is disabled, Entitlements were accessed while jfconnect is disabled.
 2025-06-10T13:23:54.325Z [jffe ] [[31M[WARN ][39M] [39fe20a61d6ff889] [frontend-service.log] [main                ] - JFConnect is disabled, Entitlements were accessed while jfconnect is disabled.
+2025-06-10T14:39:53.154Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - stream is cancelled, will close gracefully
+2025-06-10T17:22:12.425Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - stream is cancelled, will close gracefully
+2025-06-10T17:53:45.538Z [jffe ] [[34M[INFO ][39M] [] [frontend-service.log] [main                ] - stream is cancelled, will close gracefully
