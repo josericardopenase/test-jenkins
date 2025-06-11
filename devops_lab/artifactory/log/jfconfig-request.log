@@ -4483,3 +4483,8 @@
 2025-06-11T08:42:36.285Z|42d4812fb1f88f51|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|1|JFrog-Router/7.165.3-1
 2025-06-11T08:42:41.293Z|3da07d667087fc68|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|2|JFrog-Router/7.165.3-1
 2025-06-11T08:42:46.289Z|3b537e6c4e8dce8a|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:42:51.291Z|24cbecfbba135e7f|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:42:56.292Z|77d6499fc75e1b20|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:43:01.295Z|366f44de4ce4c9ee|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:43:06.295Z|42fef4f8470068ac|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:43:11.297Z|14f4a376f14cced3|0:0:0:0:0:0:0:1|anonymous|GET|/jfconfig/api/v1/system/readiness|200|28|-1|1|JFrog-Router/7.165.3-1

@@ -4431,3 +4431,8 @@
 2025-06-11T08:42:36.284Z|42d4812fb1f88f51|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|0|JFrog-Router/7.165.3-1
 2025-06-11T08:42:41.288Z|3da07d667087fc68|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
 2025-06-11T08:42:46.288Z|3b537e6c4e8dce8a|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|0|JFrog-Router/7.165.3-1
+2025-06-11T08:42:51.290Z|24cbecfbba135e7f|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
+2025-06-11T08:42:56.289Z|77d6499fc75e1b20|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|1|JFrog-Router/7.165.3-1
+2025-06-11T08:43:01.294Z|366f44de4ce4c9ee|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|0|JFrog-Router/7.165.3-1
+2025-06-11T08:43:06.294Z|42fef4f8470068ac|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|0|JFrog-Router/7.165.3-1
+2025-06-11T08:43:11.296Z|14f4a376f14cced3|127.0.0.1|non_authenticated_user|GET|/api/v1/system/readiness|200|-1|0|0|JFrog-Router/7.165.3-1
