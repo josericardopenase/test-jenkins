@@ -354,3 +354,4 @@ DATA-----------------------------
 2025-06-11T07:45:54.555Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:167] [jf-access-task5     ] - Loading root certificate from database.
 2025-06-11T07:45:54.613Z [jfac ] [INFO ] [c301a6f4fff7df06] [CertificateFileHandlerBase:200] [jf-access-task5     ] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
 2025-06-11T07:48:23.647Z [jfac ] [INFO ] [d8ad11cc917610bd] [ributedStaleTokenCleanupJob:58] [jf-access-task5     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12
+2025-06-11T08:48:48.439Z [jfac ] [INFO ] [5204de58eb5baf7f] [ributedStaleTokenCleanupJob:58] [jf-access-task8     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: dfa365fa2a12

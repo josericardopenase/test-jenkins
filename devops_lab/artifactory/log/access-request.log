@@ -7011,3 +7011,209 @@
 2025-06-11T08:43:06.295Z|42fef4f8470068ac|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
 2025-06-11T08:43:09.765Z|0528dcf28bdaee5e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
 2025-06-11T08:43:11.298Z|14f4a376f14cced3|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:16.316Z|364b3a366c78ae97|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:43:16.334Z|364b3a366c78ae97|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|6|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:43:21.318Z|07a9f2b9825e9f63|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:24.780Z|3f416d1a5faf30ae|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:43:26.317Z|259b0b013be495af|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:31.318Z|3515087b3a222229|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:36.320Z|1ce47a01d310804c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:39.764Z|e93706705c932a4b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:43:41.322Z|39215208f0dd1098|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:43:46.334Z|246e775584ba7c35|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:43:51.337Z|0233243c19e42e35|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:43:53.349Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300025|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:43:53.350Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.permission.PermissionResource/OnPermissionsAffected|1|-1|-1|300026|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:43:53.350Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300026|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:43:54.771Z|6e1eb7f0a97ddbec|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:43:56.334Z|796c2698a54d4678|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:44:01.339Z|02a37e81aa281e39|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:44:06.336Z|4d70146c11996922|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:44:09.758Z|0c74f0e7601d61be|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:44:11.341Z|6450656603db720e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:44:16.342Z|3ed549b61bc359f1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:44:21.348Z|15a6f0650384433e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|5|JFrog-Router/7.165.3-1
+2025-06-11T08:44:24.761Z|3eae3d859cd3ada0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:44:26.347Z|42dce54e4ac361cd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:44:31.349Z|15cd89d62aa3eea7|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:44:36.347Z|7c80657f4cd09ce1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:44:39.757Z|e140a16e6b1e514d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:44:41.353Z|7b87b4550ec0d0ba|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|6|JFrog-Router/7.165.3-1
+2025-06-11T08:44:46.354Z|3d328558f8af6c78|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:44:51.355Z|5b264860bb6c3de0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:44:54.760Z|ebd43f5d8bc2182c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:44:56.355Z|01ca80da8e6b5cd5|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:45:01.361Z|6fa69e09e32a2f95|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:45:06.362Z|51ea3ae9e33c4c40|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:45:09.759Z|e708874acdc14d3b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:45:11.364Z|535b8f6b6fa46809|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:45:16.365Z|340ebfe7ead6b2c8|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:45:16.384Z|340ebfe7ead6b2c8|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|8|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:45:21.371Z|053b44b3a1b1d00c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:45:24.760Z|07feeab5b4269ac8|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:45:26.365Z|5cd19f97e7efe8f0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:45:31.371Z|0eff00d83092b926|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:45:36.375Z|1fafb5c308577f38|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:45:39.759Z|5adf0b9238e943fe|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:45:41.375Z|47cdd83b523ecb87|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:45:46.379Z|351d8436748489bc|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:45:51.383Z|26d47cf8f81443d3|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:45:51.403Z|26d47cf8f81443d3|127.0.0.1|jfrou@01jxczksfcmskx4nvm10wangmy|POST|/access/api/v1/oauth/token|200|972|230|15|JFrog-Router/7.165.3-1
+2025-06-11T08:45:54.763Z|22d89d13e86c1adb|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:45:56.385Z|3812cc1b4d6b70b1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:46:01.387Z|6b3bd67cba093d7a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:46:06.389Z|5ca363a615fbe57d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:46:09.762Z|aecffade36d1f5c5|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:46:11.392Z|58b4db68c6bb2850|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|5|JFrog-Router/7.165.3-1
+2025-06-11T08:46:16.391Z|2e877ac3fa64fbaa|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:46:21.393Z|25f8f48ad074df56|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:46:24.761Z|5a312351246ecf99|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:46:26.395Z|298538b0b01586dd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:46:31.398Z|37738a06ae86480d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:46:36.400Z|1c6e6f0121d9b58d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:46:39.762Z|d36b3517e6eb91c0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:46:41.402Z|6f5235e3629895ed|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:46:46.402Z|1e28f01079f06fee|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:46:51.406Z|1da4fc589a8bf010|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:46:54.763Z|f8c7a7b332b1b19e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:46:56.403Z|79e1a2c6f16fc970|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:47:01.406Z|3f14bc5ca90c7401|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:47:06.411Z|0408855c86850706|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:47:09.760Z|53ede2eaa71869bd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:47:11.413Z|748053c914031eb1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:47:16.414Z|07d8402e5c4e291e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:47:16.433Z|07d8402e5c4e291e|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|8|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:47:21.417Z|4294b1b6752bf8f0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:47:24.758Z|999317e70b7a557c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:47:26.420Z|75d37015374f0722|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:47:31.422Z|2d74d77dc2a97052|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:47:36.423Z|660c75ee65c72ba9|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:47:39.758Z|2b7030e59a52135a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:47:41.425Z|2aeefadfcf633808|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:47:46.427Z|58316e02bd122407|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:47:51.438Z|18de224d9401afcc|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:47:54.759Z|95730884b38fb940|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:47:56.430Z|79ec031bb25832de|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:48:01.432Z|3b88ffe556335984|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:48:06.433Z|5268b77addec6b50|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:48:09.757Z|0bec9b82da38ede6|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:48:11.434Z|78dc264904aa29f1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:48:16.436Z|340cfa44c155f788|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:48:21.439Z|405e581de5a8afc1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:48:24.758Z|ecc6826ca893f539|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:48:26.438Z|087bc87c3cbdea98|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:48:31.442Z|1c50788923ffd28c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|5|JFrog-Router/7.165.3-1
+2025-06-11T08:48:36.439Z|3377d93f98eccaa4|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:48:39.760Z|ae27722511c7d4ae|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:48:41.441Z|1032589dc1e21f72|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:48:46.441Z|0883eed408dede9c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:48:50.293Z|009cf9c86f19797d|127.0.0.1|jfrou@01jxczksfcmskx4nvm10wangmy|GET|/access/api/v1/config/security/authentication/mtls|200|230|-1|5|JFrog-Router/7.165.3-1
+2025-06-11T08:48:51.442Z|542abd1349d29f0b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:48:53.354Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300001|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:48:53.354Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300001|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:48:53.354Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.permission.PermissionResource/OnPermissionsAffected|1|-1|-1|300001|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:48:54.759Z|1ee3b8c20b48d0c3|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:48:56.442Z|299f1bbd244829bb|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:49:01.444Z|03098697b98a8081|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:06.446Z|37c4f34a150f894e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:06.456Z|08db28633a87b596|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/config/shared|200|133|-1|4|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:49:09.759Z|1d247d6503d102f2|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:49:11.446Z|36901f38a06ac2db|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:16.450Z|2da0fba941e13bb5|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:16.468Z|2da0fba941e13bb5|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|5|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:49:21.452Z|0b3f2dba1c7559de|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:49:24.759Z|4d56a41350a3ab74|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:49:26.450Z|2205a58f718f4d66|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:31.455Z|7cf97a3628b7751c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:49:36.456Z|5b1756448b0d0d74|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:39.764Z|ddd447c59d4da165|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:49:41.462Z|0dbce89837257f5c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:49:46.463Z|42fffbef0ad132d4|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:51.462Z|489ffb4710ca95d9|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:49:54.762Z|48f2699bd31007db|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:49:56.466Z|069656a505554d79|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:50:01.468Z|7864b7768745b571|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:50:06.470Z|1d9800f17f6c87b1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:50:09.758Z|1b42c4c536785e54|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:50:11.466Z|2ee868222b35819f|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:50:16.468Z|39d77dff40824784|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:50:21.473Z|5dbf47d6362aeaff|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:50:24.760Z|a042672d49bcc12e|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:50:26.475Z|3c9099146a0c0cda|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:50:31.476Z|562bb328611fc35f|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:50:36.476Z|541b04296d0debe1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:50:39.758Z|6334813d9c2551fc|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:50:41.480Z|6420c64ebd0dac17|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:50:46.481Z|0893bbcf6af99dbf|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:50:51.485Z|11577935a678f585|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:50:54.760Z|651939ae0e906b2d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:50:56.485Z|3111ff2cb774709d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:01.485Z|0a22ad18ecaaa637|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:06.485Z|393aebbf203e1e60|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:09.760Z|9199141f0b30994d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:51:11.489Z|1cd275e3c4060da4|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:51:16.488Z|689c6316462937bd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:16.503Z|689c6316462937bd|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|6|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:51:21.492Z|0de8c5b48fb9bec7|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:51:24.767Z|973312b2bba20fdf|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:51:26.492Z|471f7fc2fa11f4c4|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:31.496Z|407f016537383c77|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:51:36.498Z|493ba392e975b9dc|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:51:39.762Z|ac8d83d1a525ce5d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:51:41.499Z|40310a963a207cdd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:51:46.499Z|679b3ea431bacbc6|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:51:51.501Z|052eb505f8bf2a9c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:51:54.760Z|6f13dc3bcf8e4359|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:51:56.502Z|62c73d0b52d1542d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:52:01.504Z|48b03f19304bce90|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:52:06.510Z|6391aee0f112d7b0|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:52:09.761Z|10471f7461620476|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:52:11.513Z|48675d138dac0a20|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:52:16.511Z|54717acb6fd7e36c|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:52:21.519Z|0f841b6ecfca3c47|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:52:24.760Z|0f537f5b3befd423|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:52:26.516Z|0a7f8baf235bc399|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:52:31.519Z|1e8720994e065964|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:52:36.523Z|0af07a27eb074997|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:52:39.759Z|88683606cf702eb5|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:52:41.521Z|2c1125ff629149b7|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:52:46.524Z|2256203ccfc72c60|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:52:51.524Z|257610dd3801709a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:52:54.762Z|10e4a26901a774d1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:52:56.525Z|6186d6dc4d340901|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:01.529Z|161a6bdfaaee29b8|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:53:06.529Z|55da4af15a065dcd|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:09.763Z|058801bcbe2ccd14|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:53:11.529Z|5b74bef196de4612|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:53:16.528Z|677c9d9c8165a303|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:16.543Z|677c9d9c8165a303|127.0.0.1|jftpl@01jxczkrd3316c1s7459e3027y|GET|/access/api/v1/registry/versions/dfa365fa2a12|200|901|-1|5|JFrog Access Java Client/7.140.2 84002900  topology/1.92.3 19203900
+2025-06-11T08:53:21.529Z|7a2e478e53344008|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:24.762Z|562870991512b99a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:53:26.530Z|0143352347b8d4e3|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:53:31.529Z|78059c7a9f6caf4f|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:53:36.533Z|722c35d5890dd34a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:53:39.760Z|8bd89f08b1024e79|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:53:41.541Z|4ec4291981210a81|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|5|JFrog-Router/7.165.3-1
+2025-06-11T08:53:46.539Z|5aadb0282fe8d82b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:51.540Z|2bb2439d3e1a5893|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:53:53.356Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.permission.PermissionResource/OnPermissionsAffected|1|-1|-1|300001|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:53:53.357Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300002|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:53:53.357Z|                |/127.0.0.1:55158|jfmd@01jxczkswc5zjphzmg0860wfxd|--SST|com.jfrog.access.v1.project.ProjectResource/OnProjectsAffected|1|-1|-1|300002|JFrog Access Go Client/v7.76.0 Metadata/7.155.2 f08600cb80a grpc-go/1.67.1
+2025-06-11T08:53:54.762Z|6c2c9beccec7356d|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:53:56.544Z|0af6839a3293f04b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:01.543Z|73f8263a4b6502da|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:54:06.547Z|0eb98affca44af0f|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|4|JFrog-Router/7.165.3-1
+2025-06-11T08:54:09.762Z|4c87af619a48fe27|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:54:11.547Z|1165da2fed772ce1|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:16.548Z|687eed619f0e99ac|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:21.550Z|657e74fab94bdc3a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:24.757Z|9e5e7a35a0e9da66|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:54:26.550Z|59c58ed5a85d27fe|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:31.555Z|1e56f3a638c16da9|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:54:36.562Z|3eb5dd9235c8155b|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:54:39.759Z|5e1719c3f8d59ea7|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:54:41.559Z|6b413ee6d8f31a50|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|1|JFrog-Router/7.165.3-1
+2025-06-11T08:54:46.564Z|371c5cf9b1a1753a|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|3|JFrog-Router/7.165.3-1
+2025-06-11T08:54:51.563Z|58d052a5bfd34ca2|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1
+2025-06-11T08:54:54.761Z|7dab7b8da325a893|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog Access Java Client/7.140.3 84003900  Artifactory/7.111.8 81108900
+2025-06-11T08:54:56.568Z|16891f73135027a8|127.0.0.1|anonymous|GET|/access/api/v1/system/readiness|200|19|-1|2|JFrog-Router/7.165.3-1

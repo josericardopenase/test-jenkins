@@ -91,3 +91,4 @@ topology.tomcat.config (Default Value):
 2025-06-10T18:14:41.406Z [jftpl] [INFO ] [850025bcf4fed75b] [.SingleTenantCleanupService:31] [topology-scheduler-1] - Cleaning up stale nodes
 2025-06-10T19:14:41.459Z [jftpl] [INFO ] [e0375717ed9846c2] [.SingleTenantCleanupService:31] [topology-scheduler-3] - Cleaning up stale nodes
 2025-06-11T07:48:16.645Z [jftpl] [INFO ] [b00054ebaed98b69] [.SingleTenantCleanupService:31] [topology-scheduler-1] - Cleaning up stale nodes
+2025-06-11T08:48:41.420Z [jftpl] [INFO ] [6b3000529cf1e4e0] [.SingleTenantCleanupService:31] [topology-scheduler-2] - Cleaning up stale nodes
